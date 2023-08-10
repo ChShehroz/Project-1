@@ -1,0 +1,75 @@
+body{
+  overflow-x:hidden;
+}
+.thirdCont{
+  background-color: #151f20;
+  padding: 140px 0;
+}
+@keyframes floating1 {
+  0% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(-15px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@keyframes floating2 {
+  0% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(-10px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@keyframes floating3 {
+  0% {
+    transform: translateX(0);
+    
+  }
+  50% {
+    transform: translateX(-20px);
+    
+  }
+  100% {
+    transform: translateX(0);
+    
+  }
+  
+}
+
+@keyframes floating4 {
+  0% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(-25px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+/* Apply the floating animation to the images with their respective classes */
+.floatingAnimation1 {
+  animation: floating1 6s ease-in-out infinite;
+}
+
+.floatingAnimation2 {
+  animation: floating2 7s ease-in-out infinite;
+}
+
+.floatingAnimation3 {
+  animation: floating3 5s ease-in-out infinite;
+}
+
+.floatingAnimation4 {
+  animation: floating4 8s ease-in-out infinite;
+}

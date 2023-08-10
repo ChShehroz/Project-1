@@ -1,0 +1,22 @@
+.contentConatin{
+  background-color: #eeeeee ;
+  padding: 100px 0;
+  
+}
+
+.animatedImage.image2 {
+  transform: translateY(100px);
+  opacity: 0;
+  transition: all 1s ease-out, opacity 1.5s ease-out; /* Adjust durations as needed */
+}
+
+.animatedImage.image3 {
+  transform: translateY(100px);
+  opacity: 0;
+  transition: all 1s ease-out, opacity 2s ease-out; /* Adjust durations as needed */
+}
+
+.slideUp {
+  transform: translateY(0);
+  opacity: 1;
+}

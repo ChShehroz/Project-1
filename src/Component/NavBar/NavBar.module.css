@@ -1,0 +1,72 @@
+@font-face {
+  font-family: 'Montserrat';
+  src: url('../../../public/Montserrat-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url('../../../public/Montserrat-Regular.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+.navBar {
+  font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+  transition: padding 0.3s, background-color 0.3s; /* Adding transitions for smooth effect */
+  
+  /* Rest of your regular styles for the navigation bar */
+}
+
+.sticky {
+  padding: 5px 100px;
+  background-color: white; /* Replace with your desired color */
+  /* Add other styles as needed */
+}
+/* Styles for the logo */
+.logo {
+  color: #ffffff;
+  margin: 5px 0;
+  padding: 20px 15px;
+  font-size: 14px;
+}
+
+/* Styles for menu list items */
+.menuList {
+  font-size: 12px;
+  margin: 15px 3px;
+  padding: 10px 15px;
+}
+
+/* Styles for both the logo and menu list items */
+.logo, .menuList {
+  
+  text-transform: uppercase; 
+  font-weight: bold;
+}
+
+.navBarTransparent {
+  background: transparent;
+  border-bottom: 1px solid transparent;
+  box-shadow: none;
+}
+
+.Buy1 {
+  opacity: 1;
+  font-weight: bolder;
+}
+
+.Buy1:hover {
+  border-radius: 25px; 
+}
+
+.header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1200px;
+}

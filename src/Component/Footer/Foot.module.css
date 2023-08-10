@@ -1,0 +1,21 @@
+/* SecThird.module.css */
+@keyframes heartbeat {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+/* Apply the heartbeat animation to the heart icon with this class */
+.heartbeatAnimation {
+  animation: heartbeat 0.8s infinite;
+}
+.bgColor{
+  background-color: #252422;
+  
+}

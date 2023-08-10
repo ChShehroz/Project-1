@@ -1,0 +1,14 @@
+.forthContain{
+  background-color: #caac90;
+  color: white;
+  padding-top: 80px ;
+  overflow: hidden;
+}
+
+
+.rotate{
+  
+  transform-style: preserve-3d;
+  transform: translateX(20vw) translateY(10px) rotateX(45deg) rotateZ(35deg);
+}
+
