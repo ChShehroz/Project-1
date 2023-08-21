@@ -13,7 +13,6 @@ import bgdot from "../../assets/dotsBg.png";
 
 const SignIn = () => {
   const bgColor = "#171941";
-  const textColor = useColorModeValue("gray.700", "gray.100");
 
   const containerStyles = {
     minHeight: "100vh",
@@ -35,26 +34,33 @@ const SignIn = () => {
       <Box
         p={8}
         rounded="xl"
-        boxShadow="xl"
-        bgColor="white"
+        border={"1px solid #9a9a9a"}
+        bgColor={"transparent"}
         width="100%"
         maxWidth="400px"
       >
-        <Heading as="h2" size="xl" mb={6} textAlign="center" color={textColor}>
+        <Heading
+          as="h2"
+          size="xl"
+          mb={6}
+          textAlign="center"
+          color={"#ffffffb2"}
+        >
           Sign In
         </Heading>
         <Stack spacing={4}>
           <FormControl>
-            <FormLabel>Email address</FormLabel>
-            <Input type="email" />
+            <FormLabel color={"#9a9a9a"}>Email address</FormLabel>
+            <Input color={"#9a9a9a"} type="email" />
           </FormControl>
 
           <FormControl>
-            <FormLabel>Password</FormLabel>
-            <Input type="password" /> {/* Changed type to "password" */}
+            <FormLabel color={"#9a9a9a"}>Password</FormLabel>
+            <Input color={"#9a9a9a"} type="password" />{" "}
+            {/* Changed type to "password" */}
           </FormControl>
 
-          <Button colorScheme="blue" size="md" width="100%">
+          <Button colorScheme="pink" size="md" width="100%">
             Sign In
           </Button>
         </Stack>
