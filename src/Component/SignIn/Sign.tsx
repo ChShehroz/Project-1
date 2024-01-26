@@ -10,6 +10,7 @@ import {
   Box,
 } from "@chakra-ui/react";
 import bgdot from "../../assets/dotsBg.png";
+import { Link, Outlet } from "react-router-dom";
 
 const SignIn = () => {
   const bgColor = "#171941";
@@ -59,10 +60,11 @@ const SignIn = () => {
             <Input color={"#9a9a9a"} type="password" />{" "}
             {/* Changed type to "password" */}
           </FormControl>
-
-          <Button colorScheme="pink" size="md" width="100%">
-            Sign In
-          </Button>
+          <Link to={"/"}>
+            <Button colorScheme="pink" size="md" width="100%">
+              Sign In
+            </Button>
+          </Link>
         </Stack>
       </Box>
     </VStack>
