@@ -9,3 +9,5 @@ const RoutesPage = () => {
     </Routes>
   );
 };
+
+export default RoutesPage;
