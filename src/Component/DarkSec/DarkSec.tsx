@@ -1,5 +1,5 @@
 import { Box, Container, Icon, Heading, Text, Flex } from "@chakra-ui/react";
-import { LuComponent } from "react-icons/Lu";
+// import { LuComponent } from "react-icons/Lu";
 import { HiOutlineDocumentText } from "react-icons/hi";
 import { TbLayout } from "react-icons/tb";
 import style from "./DarkSec.module.css";
@@ -37,7 +37,7 @@ const DarkSec = () => {
         <Container>
           <Box justifyContent="center" textAlign="center">
             <Box>
-              <Icon as={LuComponent} w={12} h={12} color="#f5593d" mb="20px" />
+              {/* <Icon as={LuComponent} w={12} h={12} color="#f5593d" mb="20px" /> */}
               <Heading
                 fontWeight="200"
                 as="h4"
